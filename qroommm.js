@@ -17,6 +17,11 @@ function getToRoom1() {
 
 var Answer = 0;
 var firstAns = false;
+var secendAns = false;
+var thirdAns = false;
+var fourthAns = false;
+var fifthAns = false;
+var sixthAns = false;
 function firstq() {
     if (firstAns == true) {
         window.alert("You already answered this  question!");
@@ -42,13 +47,13 @@ function firstq() {
 
 
 function secendq() {
-    if (firstAns == true) {
+    if (secendAns == true) {
         window.alert("You already answered this  question!");
     }
     else {
         var firstq = prompt("what is neta's favorite food??", "");
         if (firstq == "sushi") {
-            firstAns = true
+            secendAns = true
             Answer = Answer + 1
             window.alert("Correct!");
         }
@@ -65,13 +70,13 @@ function secendq() {
 
 
 function thirdq() {
-    if (firstAns == true) {
+    if (thirdAns == true) {
         window.alert("You already answered this  question!");
     }
     else {
         var firstq = prompt("whats neta favorite series??", "");
-        if (firstq == "the vampier diaries") {
-            firstAns = true
+        if (firstq == "vampire diaries") {
+            thirdAns = true
             Answer = Answer + 1
             window.alert("Correct!");
         }
@@ -89,13 +94,13 @@ function thirdq() {
 
 
 function fourthq() {
-    if (firstAns == true) {
+    if (fourthAns == true) {
         window.alert("You already answered this  question!");
     }
     else {
         var firstq = prompt("whats neta favorite book??", "");
         if (firstq == "Love on the Brain") {
-            firstAns = true
+            fourthAns = true
             Answer = Answer + 1
             window.alert("Correct!");
         }
@@ -112,13 +117,13 @@ function fourthq() {
 
 
 function fifthq() {
-    if (firstAns == true) {
+    if (fifthAns == true) {
         window.alert("You already answered this  question!");
     }
     else {
         var firstq = prompt("whene is neta's birthday??", "");
         if (firstq == "20 in may") {
-            firstAns = true
+            fifthAns = true
             Answer = Answer + 1
             window.alert("Correct!");
         }
@@ -133,13 +138,13 @@ function fifthq() {
 
 
 function sixthq() {
-    if (firstAns == true) {
+    if (sixthAns == true) {
         window.alert("You already answered this  question!");
     }
     else {
         var firstq = prompt("what is neta's favorite flavored candy??", "");
         if (firstq == "sour") {
-            firstAns = true
+            sixthAns = true
             Answer = Answer + 1
             window.alert("Correct!");
         }

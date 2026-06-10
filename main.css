@@ -1,0 +1,31 @@
+body 
+{ margin:0; 
+  padding: 0;
+  background-image: url("brain.jpeg"); 
+  font-size :22px;
+  }
+h2, p {
+     margin: 10 px;
+     } 
+ul { 
+  list-style-type: none; 
+  margin: 200 px;
+   padding: 0; 
+   overflow: hidden;
+    background-color: #f5e9d3;
+   } 
+ul li {
+   float: left;
+   }
+li{
+   padding: 60px;
+  }
+ul li a {
+     display:block; 
+     color: rgb(44, 30, 30);
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none; 
+      } 
+ul li a:hover { 
+  background-color: #f5e9d3; }
