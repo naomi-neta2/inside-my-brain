@@ -1,0 +1,18 @@
+body{
+    background-image: url("brain.jpeg");
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-family: "Oooh Baby";
+    font-size: 100px;
+    font-weight: 300px;
+}
+
+button{
+    font-family: "Oooh Baby";
+    font-size:50px;
+    border-radius: 10px;
+    background-color: rgb(252, 243, 196);
+}
